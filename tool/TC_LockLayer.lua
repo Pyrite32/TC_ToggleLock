@@ -3,6 +3,7 @@
 -- **************************************************
 
 ScriptName = "TC_LockLayer"
+TC_LockLayer = {}
 
 -- **************************************************
 -- General information about this script
@@ -29,7 +30,7 @@ function TC_LockLayer:Description()
 end
 
 
-TC_LockLayer = {}
+
 
 TC_LockLayer.CHOICE_PLACE_HOOK = 0
 TC_LockLayer.CHOICE_CANCEL = 1
@@ -38,8 +39,8 @@ TC_LockLayer.CHOICE_DISABLE_HOOKS = 2
 TC_LockLayer.LOCK_PREF_UNDECIDED = 0
 TC_LockLayer.LOCK_PREF_USE_HOOK = 1
 TC_LockLayer.LOCK_PREF_NO_HOOK = 2
-TC_LockLayer.HOOK_SCRIPT_NAME = '.TC_ToggleLock.hook.lua'
-TC_LockLayer.HOOK_PREF_FILE_NAME = '.TC_ToggleLock.config.txt'
+TC_LockLayer.HOOK_SCRIPT_NAME = '.TC_LockLayer.hook.lua'
+TC_LockLayer.HOOK_PREF_FILE_NAME = '.TC_LockLayer.config.txt'
 
 ---@type MOHO.MohoLayer
 TC_LockLayer.hookReference = nil
