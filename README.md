@@ -21,7 +21,7 @@ Installed Folder
 ## Features
 
 Upon clicking the lock button, the following will happen:
-1. A config file (.TC_ToggleLock.config.txt) and a hook script (.TC_ToggleLock.hook.lua) will appear in your project's directory.
+1. A config file (.TC_LockLayer.config.txt) and a hook script (.TC_LockLayer.hook.lua) will appear in your project's directory.
 2. If you chose to enable Lock Hook, and a hook is not attached to a layer, you will be asked to attach it to the current layer.
 4. The layer is locked (or unlocked),
 5. The layer will be ignored by the layer selector (or this setting will be reverted),
@@ -34,9 +34,9 @@ Lock Hook is a layer script that binds to a given layer in your document.
 - It places a script symbol '📜', on the layer it is attached to, allowing the user to easily locate and remove the hook if necessary.
 
 > Note: To attach a runnable script to a layer, Moho requires a .lua file on disk to use as a reference.
-> TC_ToggleLock generates one (.TC_ToggleLock.hook.lua) in your project's folder. Do not mess with this file.
+> TC_LockLayer generates one (.TC_LockLayer.hook.lua) in your project's folder. Do not mess with this file.
 
-You may opt out of / re-enable this feature by modifying the config file (.TC_ToggleLock.config.txt)
+You may opt out of / re-enable this feature by modifying the config file (.TC_LockLayer.config.txt)
 
 To disable:
 ```
