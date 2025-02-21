@@ -329,8 +329,8 @@ function TC_LockLayer:TryInitializeHook(api)
 				"No"
 			);
 			TC_LockLayer.lockHookPreference = choice == 0 and TC_LockLayer.LOCK_PREF_USE_HOOK or TC_LockLayer.LOCK_PREF_NO_HOOK
-			TC_LockLayer:WritePreferenceToConfig(api)
 		end
+		TC_LockLayer:WritePreferenceToConfig(api)
 	end
 
 	
