@@ -4,7 +4,7 @@ Moho has support for locking layers within its scripting interface, but there ex
 Now, locking and unlocking layers can be done by clicking this tool's icon whilst having 1 or more layers selected.
 
 ## Installation
-- Clone this repository (if you're familiar with Git), or download it as a zip file and unzip.
+- Clone this repository (if you're familiar with Git), or go to Code > Download Zip and unzip.
 - Then, with Moho open, go to the top menu, Scripts > Install Script.., and point it to this folder.
 - Ensure the folder you point to has the below structure, or it won't install:
 
