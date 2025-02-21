@@ -100,8 +100,6 @@ function DecorateNameLock(activeLayer)
 end
 ]]
 
-local a = "C:\\Users\\patri\\Art\\MohoCustomFolder\\MohoWorkspace\\me-guides\\.TC_ToggleLock__Hook.lua"
-
 TC_LockLayer.hookPreludeSource = [[
 --META/TC_HOOK/VER: 1.0
 
